@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Phone</td>
+    </thead>
+    {% for i in inter %}
+    <tr>
+        <td>{{i.name}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.phone}}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
